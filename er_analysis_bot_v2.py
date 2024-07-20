@@ -1,4 +1,4 @@
-!pip install -r requirements.txt --quiet
+!pip install pypdf
 
 import streamlit as st
 import pypdf
