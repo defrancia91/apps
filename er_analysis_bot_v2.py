@@ -1,11 +1,7 @@
-!pip install pypdf
-
 import streamlit as st
 import pypdf
 import json
 import requests
-from google.colab import userdata
-from pyngrok import ngrok
  
 # # Function to read PDF and extract text
 def read_pdf(file):
