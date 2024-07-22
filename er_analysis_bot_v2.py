@@ -22,23 +22,25 @@ st.set_page_config(
 # Set Title and Message
 st.title("📝 Earning Release Analyst")
 st.markdown(
-        """ \n
-	This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: \n
- 	Sentiment Analysis / Key Words / Executive Summary. \n
-	Please upload your PDF to unleash the power of this app 🚀🚀!!
+        """
+	# Unleash the power of ER app 🚀
+ 	This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: 
+ 	 * Sentiment Analysis
+   	 * Key Words
+     	 * Executive Summary.
+	Please upload your HF Key and the PDF to get the best ER analysis !!
 	""" 
     )
 
 # Set Sidebar
 with st.sidebar:
     hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
-    ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
 
 # Upload the file
 uploaded_file = st.file_uploader("Upload a file", type=("txt", "md", "pdf"))
 
 # Parse the file
-if uploaded_file and hf_api_key and ngrok_auth_token:
+if uploaded_file and hf_api_key:
 
     if uploaded_file.type == "application/pdf":
         article = read_pdf(uploaded_file)
