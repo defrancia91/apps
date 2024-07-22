@@ -2,7 +2,7 @@ import streamlit as st
 import pypdf
 import json
 import requests
-from PIL import Image
+from streamlit_prophet.lib.utils.load import load_image
 
 # Function to read PDF and extract text
 def read_pdf(file):
@@ -34,9 +34,7 @@ st.markdown(
 with st.sidebar:
 	hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
 	ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
-	sidebarlogo = Image.open('logo2.png').resize((300, 390))
-        st.image(sidebarlogo, use_column_width='auto')
-	
+	st.sidebar.image(load_image("logo2.png"), use_column_width=True)
 
 # Upload the file
 uploaded_file = st.file_uploader("Upload a file", type=("txt", "md", "pdf"))
