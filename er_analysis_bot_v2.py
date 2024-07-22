@@ -31,8 +31,8 @@ st.markdown(
 # Set Sidebar
 
 with st.sidebar:
-	hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
-	ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
+    hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
+    ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
 
 
 # Upload the file
@@ -40,7 +40,6 @@ uploaded_file = st.file_uploader("Upload a file", type=("txt", "md", "pdf"))
 
 # Parse the file
 if uploaded_file and hf_api_key and ngrok_auth_token:
-
 
     if uploaded_file.type == "application/pdf":
         article = read_pdf(uploaded_file)
