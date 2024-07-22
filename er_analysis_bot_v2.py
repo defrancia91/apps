@@ -23,8 +23,8 @@ st.set_page_config(
 st.title("📝 Earning Release Analyst")
 st.markdown(
         """
-	This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: 
- 	Sentiment Analysis / Key Words / Executive Summary.
+	This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: \n
+ 	Sentiment Analysis / Key Words / Executive Summary. \n
 	Please upload your PDF to unleash the power of this app 🚀🚀!!
 	""" 
     )
