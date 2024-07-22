@@ -2,6 +2,7 @@ import streamlit as st
 import pypdf
 import json
 import requests
+from PIL import Image
 
 # Function to read PDF and extract text
 def read_pdf(file):
@@ -28,12 +29,13 @@ st.markdown(
 	Please upload your PDF to unleash the power of this app 🚀🚀!!
 	""" 
     )
-# Set Sidebar
 
+# Set Sidebar
+sidebarlogo = Image.open('logo2.png')
 with st.sidebar:
+    st.image(sidebarlogo, use_column_width='auto')
     hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
     ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
-
 
 # Upload the file
 uploaded_file = st.file_uploader("Upload a file", type=("txt", "md", "pdf"))
