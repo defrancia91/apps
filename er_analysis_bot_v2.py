@@ -1,5 +1,3 @@
-!pip install -r requirements.txt --quiet
-
 import streamlit as st
 import pypdf
 import json
