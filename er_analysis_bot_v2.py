@@ -2,7 +2,7 @@ import streamlit as st
 import pypdf
 import json
 import requests
-from PIL import Image
+from Pillow import Image
 
 # Function to read PDF and extract text
 def read_pdf(file):
