@@ -2,7 +2,6 @@ import streamlit as st
 import pypdf
 import json
 import requests
-from Pillow import Image
 
 # Function to read PDF and extract text
 def read_pdf(file):
@@ -31,9 +30,7 @@ st.markdown(
     )
 
 # Set Sidebar
-sidebarlogo = Image.open('logo2.png')
 with st.sidebar:
-    st.image(sidebarlogo, use_column_width='auto')
     hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
     ngrok_auth_token = st.text_input("Enter your NGROK token", type="password")
 
