@@ -17,11 +17,17 @@ def read_pdf(file):
 st.set_page_config(
     page_title="Earning Release Analyst",
     layout="wide",
-    page_icon="/logo2.png")
+    page_icon="logo2.png")
 
-# Set Title
+# Set Title and Message
 st.title("📝 Earning Release Analyst")
-
+st.markdown(
+        """
+        This app uses Mistral AI to generate a summary of earning released (ER) from companies to provide:\n
+        Sentiment analysis / Key words / Executive summary \n
+	Please upload your PDF to unleash the power of this app 🚀🚀!!
+	""" 
+    )
 # Set Sidebar
 
 with st.sidebar:
