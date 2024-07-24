@@ -20,7 +20,7 @@ st.set_page_config(
     page_icon="logo2.png")
 
 # Set Title and Message
-st.title("📝 Earning Release Analyst")
+st.title("📝 Earning Releases ER")
 st.markdown(
         """
 	# Unleash the power of ER app 🚀
@@ -28,12 +28,13 @@ st.markdown(
 	* Sentiment Analysis
  	* Key Words
 	* Executive Summary
-	Please upload your HF Key and the PDF to get the best ER analysis !!
+	Please upload your Hugging Face Key and the PDF to get the best ER analysis !!
 """ 
     )
 
 # Set Sidebar
-st.sidebar.image("logo2.png")
+st.sidebar.markdown("Earning Releases (ER) App")
+st.sidebar.image("logo2.png", width=150)
 with st.sidebar:
     hf_api_key = st.text_input("Enter your Hugging Face API key", type="password")
 
