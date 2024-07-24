@@ -51,14 +51,13 @@ if uploaded_file and hf_api_key:
 
     # Prompt for LLM
     prompt = f"""
-    Act as a company financial analyst to analyze the earnings releases of companies,
-    delimited below by triple backticks.
-
-    Output should include:
+    Act as a company financial analyst to analyze the earnings releases of companies.
+    
+    Output should only include:
 
     - Overall sentiment: <positive, negative or neutral; keeping in mind that companies will often appear to be extremely optimistic about their company performance>
-    - Key words: <find those words which are most repeated and drivers of growth and performance for the company, include 7 words max>
-    - Executive summary: <executive summary of past performance and about which will be drivers for next earnings in the future, 10 lines max>
+    - Key words: <find key words which are the drivers of growth and performance for the company, include only 10 words maximum>
+    - Executive summary: <executive summary of past performance and about future earning growth, 10 lines maximum>
 
     Keep all information factual and only include information extracted from the earning release document.
 
