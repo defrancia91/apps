@@ -20,7 +20,6 @@ st.set_page_config(
     page_icon="logo2.png")
 
 # Set Title and Message
-st.title("📝 Earning Releases ER")
 st.markdown(
         """
 	# Unleash the power of ER app 🚀
