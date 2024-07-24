@@ -53,13 +53,13 @@ if uploaded_file and hf_api_key:
     prompt = f"""
     Act as a company financial analyst to analyze the earnings releases of companies.
     
-    Output should only include:
+    Output should include:
 
     - Overall sentiment: <positive, negative or neutral; keeping in mind that companies will often appear to be extremely optimistic about their company performance>
-    - Key words: <find key words which are the drivers of growth and performance for the company, include only 10 words maximum>
-    - Executive summary: <executive summary of past performance and about future earning growth, 10 lines maximum>
+    - Key words: <find those key words which are the most important drivers of growth and performance for the company, include only 10 words max>
+    - Executive summary: <executive summary of past performance and about future earning growth, 10 lines max>
 
-    Keep all information factual and only include information extracted from the earning release document.
+    Keep all information factual, short and concise and only include information extracted from the earning release document delimited below by triple backticks.
 
     Earning release document:
     ```{article}```
