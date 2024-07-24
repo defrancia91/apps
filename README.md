@@ -1,6 +1,6 @@
 # Earning Releases (ER) Streamlit App
 
-https://defrancia91-apps-er-analysis-bot-v2-furrw3.streamlit.app/
+https://defrancia91-apps-er-analysis.streamlit.app/
 
 <p align="center">
   <img src="logo2.png" alt="ER logo" width="300" style="border-radius: 45px;"/>
@@ -24,4 +24,4 @@ Get the insights you need, faster and more efficiently NOW !
 ## How to Use
 - Get your Hugging Face API Key: if you do not already have one, obtain one here: https://huggingface.co/
 - Upload the earling release document
-- Run the Streamlit App here: https://defrancia91-apps-er-analysis-bot-v2-furrw3.streamlit.app/
+- Run the Streamlit App here: https://defrancia91-apps-er-analysis.streamlit.app/
