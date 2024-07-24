@@ -1,5 +1,7 @@
 # Earning Releases (ER) Streamlit App
 
+https://defrancia91-apps-er-analysis-bot-v2-furrw3.streamlit.app/
+
 <p align="center">
   <img src="logo2.png" alt="ER logo" width="300" style="border-radius: 45px;"/>
 </p>
@@ -9,7 +11,7 @@
 Discover how our app can transform the way you analyze company earnings releases! 
 By leveraging Mistral AI, it provides three powerful features: Sentiment Analysis to gauge market reactions, Key Words to highlight crucial themes, and an Executive Summary for a quick overview. 
 Acting as your personal financial analyst, this app saves you time and effort by quickly distilling the essential drivers behind a company's performance. 
-Get the insights you need, faster and more efficiently NOW !!!
+Get the insights you need, faster and more efficiently NOW !
 
 
 ## Features.
@@ -22,4 +24,4 @@ Get the insights you need, faster and more efficiently NOW !!!
 ## How to Use
 - Get your Hugging Face API Key: if you do not already have one, obtain one here: https://huggingface.co/
 - Upload the earling release document
-- Run the Streamlit App
+- Run the Streamlit App here: https://defrancia91-apps-er-analysis-bot-v2-furrw3.streamlit.app/
