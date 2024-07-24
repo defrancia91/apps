@@ -23,13 +23,13 @@ st.set_page_config(
 st.title("📝 Earning Release Analyst")
 st.markdown(
         """
-	# Unleash the power of ER app 🚀
- 	This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: 
-  		* Sentiment Analysis
-   	 	* Key Words
-      		* Executive Summary
-	Please upload your HF Key and the PDF to get the best ER analysis !!
-	""" 
+# Unleash the power of ER app 🚀
+This app uses Mistral AI to generate summaries of earnings releases (ER) from companies, providing: 
+	* Sentiment Analysis
+ 	* Key Words
+	* Executive Summary
+Please upload your HF Key and the PDF to get the best ER analysis !!
+""" 
     )
 
 # Set Sidebar
