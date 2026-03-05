@@ -23,5 +23,5 @@ Get the insights you need, faster and more efficiently NOW !
 
 ## How to Use
 - Get your Hugging Face API Key: if you do not already have one, obtain one here: https://huggingface.co/
-- Upload the earling release document
+- Upload the earning released document of your company of interest
 - Run the Streamlit App here: https://defrancia91-apps-er-analysis.streamlit.app/
